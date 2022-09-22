@@ -31,9 +31,16 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('TODOLIST'),
+        title: const Text('App Bar'),
       ),
-      body: Container(),
+      body: const Center(
+        child: Text(
+          'Body',
+          style: TextStyle(
+            fontSize: 32,
+          ),
+        ),
+      ),
     );
   }
 }

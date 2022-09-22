@@ -59,7 +59,7 @@ print(p.nationality);
 ## 5
 
 ```dart
-List<String> l = [];
+List l = [];
 
 l.add('Hello');
 l.add('my');
