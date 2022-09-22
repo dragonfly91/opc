@@ -33,19 +33,24 @@ Scaffold(
 ## 3
 
 ```dart
-        Icon(
+      const Center(
+        child: Icon(
           Icons.home,
           size: 64,
-        )
+        ),
+      )
 ```
 
 ## 4
 
 ```dart
-        TextField(
-          decoration: InputDecoration(
-            border: OutlineInputBorder(),
-            labelText: 'Name',
+        Padding(
+          padding: EdgeInsets.all(16),
+          child: TextField(
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Name',
+            ),
           ),
         )
 ```
@@ -66,7 +71,7 @@ Scaffold(
 ## 6
 
 ```dart
-      Padding(
+      const Padding(
         padding: EdgeInsets.all(0),
         child: Icon(
           Icons.list,
@@ -87,6 +92,10 @@ Scaffold(
           ],
         ),
       )
+```
+
+```dart
+SizedBox(width: 16)
 ```
 
 ## 8
